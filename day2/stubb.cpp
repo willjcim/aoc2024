@@ -9,7 +9,7 @@ int main() {
 
     auto part1 = timer<decltype(&partOne)>::time(partOne, content);
 
-    //auto part2 = timer<decltype(&partTwo)>::time(partTwo, content);
+    auto part2 = timer<decltype(&partTwo)>::time(partTwo, content);
 
 	return 1;
 }
